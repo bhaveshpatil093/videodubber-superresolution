@@ -1,0 +1,12 @@
+opencv-python
+torch
+numpy
+moviepy
+ffmpeg-python
+
+## Explaination
+1. opencv-python: For frame manipulation (e.g., extracting subframes and enhancing them).
+2. torch: Required for running GFPGAN and CodeFormer models.
+3. numpy: For numerical operations (if needed for frame calculations).
+4. moviepy: To handle video and audio merging or editing.
+5. ffmpeg-python: Wrapper for FFmpeg to process video files.
