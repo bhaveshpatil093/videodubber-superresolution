@@ -1,1 +1,7 @@
 
+### How to Use:
+Both models are utilized in the script `x.py` to perform superresolution on the generated video frames. Depending on your preference, you can use either GFPGAN or CodeFormer for enhancing the resolution of facial regions in the video.
+
+- To use GFPGAN, run the script with the following argument:
+  ```bash
+  python x.py --superres GFPGAN -iv input.mp4 -ia input.mp3 -o output.mp4
